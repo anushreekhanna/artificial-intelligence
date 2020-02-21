@@ -14,13 +14,13 @@ void bfs_traverse(node *);
 
 /*global declarations */
 node *root = NULL;
-intval, front = 0, rear = -1, i;
-intqueue[20];
+int val, front = 0, rear = -1, i;
+int queue[20];
 
-intmain()
+int main()
 {
     node *new = NULL ;
-intnum = 1;
+int num = 1;
 printf("Enter the elements of the tree(enter 0 to exit)\n");
     while (1)
     {
